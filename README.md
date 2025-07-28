@@ -1,6 +1,6 @@
-Seller Cohort Analysis with PySpark & SQL
+***Seller Cohort Analysis with PySpark & SQL***
 
-📋 Project Overview
+**📋 Project Overview**
 This project ingests e-commerce order data, computes monthly seller cohorts and retention metrics via PySpark, exposes results through SQL, and visualizes key insights in an Excel dashboard.
 
 🔧 Tech Stack
@@ -11,7 +11,7 @@ This project ingests e-commerce order data, computes monthly seller cohorts and 
 - pandas, sqlalchemy
 - Git & GitHub
 
-📂 Repo Structure
+**📂 Repo Structure**
 
 seller-cohort-analysis/
 ├── data/
