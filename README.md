@@ -43,22 +43,22 @@ seller-cohort-analysis/
    source venv/bin/activate
    pip install -r requirements.txt
 
-  2. **ETL**
+  2. **ETL**:
    python spark_jobs/etl.py
 
-  3. **Cohort Analysis**
+  3. **Cohort Analysis**:
    spark-submit spark_jobs/cohort_analysis.py
 
-  4. **SQL Queries**
+  4. **SQL Queries**:
    Load data/metrics.parquet into your SQL engine (or convert to a SQLite table).
    Run sql/cohort_queries.sql to extract cohort sizes, retention rates, and revenue trends.
 
-   5. **Dashboard**
+   5. **Dashboard**:
       Open data/metrics.csv in Excel.
       Build charts as described in dashboard/ section.
       Save as dashboard/seller_cohort_dashboard.xlsx.
 
-***🔍 Key Findings***
+***🔍 Key Findings***:
     Jan 2025 Cohort: 120 sellers, 60% retention in Month 2
     Revenue Trend: January cohort generated ₹75K in Month 1, rising to ₹90K by Month 3
 
